@@ -17,24 +17,53 @@
 <body>
     <div class="main-container">
         <header>
-            <div class="logo">
-                <img src="PROJETS/../Logo.png" title="Logo du site Booki" alt="logo booki" />
-            </div>
-         <nav class="entete">
-           <ul>
-             <li><class="herbergements-entete">Hébergements</a>
-             </li>
-                <li><class="activites-entete">Activités</a>
-                    
-        </header>
+  <div class="logo">
+    <img src="PROJETS/../Logo.png" title="Logo du site Booki" alt="logo booki">
+  </div>
+          
+ <!-- nav pour référencement + oragnisation -->
+  <nav>
+    <ul>
+      <li><a href="herbergements-entete">Hébergements</a></li>
+      <li><a href="activites-entete">Activités</a></li>
+    </ul>
+  </nav>
+</header>
         <main>
+          <section>
+  <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+  <p>En plein centre-ville ou en pleine nature</p>
+  
+  <form class="recherche">
+   <div class="recherche-box">
+    <div class="logo-recherche">
+      <span class="logo"><i class="fa-solid fa-location-dot"></i></span>
+    </div>  
+    <input type="text" placeholder="Marseille, France">
+    <button type="submit">Rechercher</button>
+  </div>
+</form>
+            
+  <div class="filtres">
+  <h2>Filtres</h2>
+  <button> <i class="fa-sharp fa-solid fa-money-bill-wave"></i><i class="logo-economique"></i> Economique</button>
+  <button> <i class="fa-solid fa-person"></i><i class="logo-familial"></i> Familial</button>
+  <button> <i class="fa-solid fa-heart"></i><i class="logo-romantique"></i> Romantique</button>
+  <button> <i class="fa-solid fa-dog"></i><i class="logo-animaux"></i> Animaux autorisés</button>
+    
+  </div>
+
+          <p><i class="fa-solid fa-circle-info"> </i>Plus de 500 logements sont disponibles dans cette ville</p>
+          </section>
+
+          
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
-                        <h2 class="section-title">Les plus populaires</h2>
+                        <h3 class="section-title">Les plus populaires</h3>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
@@ -93,7 +122,10 @@
                 </section>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+          
+          
+        </footer>
     </div>
 </body>
 
