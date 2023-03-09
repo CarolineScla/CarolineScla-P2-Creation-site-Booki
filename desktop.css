@@ -61,8 +61,6 @@ header {
   padding: 0 60px;
 }
 
-
-
 nav ul {
   display: flex;
   list-style: none;
@@ -99,29 +97,34 @@ line-height: 26px;
 }
 
 /** Barre recherche ville **/
+.logo-recherche .logo i {
+   color: #000000;
+}
+
 .recherche {
   border-radius: 5px;
   overflow: hidden;
   display: inline-block;
   max-width: 400px; 
   width: 80%; 
-  padding: 0px; 
+  padding: 10px; 
   box-sizing: border-box;
-   margin-left: -10px; /** pour aligner avec le reste **/
+  margin-left: -10px; /** pour aligner avec le reste **/
 }
 
 .recherche .recherche-box {
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .recherche .recherche-box .logo-recherche {
   background-color: #D9D9D9;
   border-radius: 15px 0 0 15px;
-  padding: 10px;
-  
+  padding: 12px; 
 }
 
 .recherche .recherche-box .logo {
@@ -129,14 +132,19 @@ line-height: 26px;
   align-items: center;
   justify-content: center;
   width: 22px;
-  height: 24px;
+  height: 22px;
+  
 }
 
 .recherche .recherche-box input[type="text"] {
   border: none;
   outline: none;
   flex: 1;
-  padding: 10px;
+  padding: 12px;
+  width: 22px;
+  height: 22px;
+  font-weight: bold;
+  color: #000000;
 }
 
 .recherche .recherche-box button[type="submit"] {
@@ -144,7 +152,7 @@ line-height: 26px;
   color: #fff;
   border: none;
   outline: none;
-  padding: 10px;
+  padding: 15px;
   border-radius: 0 15px 15px 0;
 }
 
@@ -155,39 +163,56 @@ line-height: 26px;
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
   font-weight: bold;
+    margin: 10px 0;
+}
+.boutons-filtres {
+padding: 20px;
+}
+
+.filtres {
   display: flex;
   align-items: center;
   Text-align: left;
-  margin: 20px 0;
-}
-
-.filtres h2 {
-  
+  margin: 10px 10; 
 }
 
 .filtres ul {
   display: flex;
-  list-style: none; 
-  
+  list-style: none;  
 }
 
-/** espace entre les boutons**/
+/** taille + espace entre les boutons + couleur arrière **/
 .filtres button {
- display: inline-block;
+  display: inline-block;
   align-items: center;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 20px;
-  padding: 5px 10px;
-  font-size: 14px;
+  padding: 12px 10px;
+  font-size: 15px;
   cursor: pointer;
-  margin-right: 40px;  
+  margin-right: 30px; 
+  background-color: white;
 }
 
-/** couleur survole bouton **/
 .filtres button:hover {
   background-color: #DEEBFF;
   color: black;
+}
+
+/** logo demandé indisponible, création d'un cercle pour i **/
+.petit-i i {
+  font-size: 12px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #D9D9D9;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
 }
 
 /****** Hebergements And Populaires ***********/
