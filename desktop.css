@@ -212,17 +212,17 @@ padding: 20px;
 
 
 .hebergements-and-populaires {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  padding : 0px;
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 30px;
-    box-sizing: border-box;
-    background-color: #F2F2F2;
-    margin: 15px;
+  background-color: var(--main-bg-color);
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  margin: 15px;
 }
 /****** Cards *******/
 .card {
@@ -243,9 +243,13 @@ padding: 20px;
 
 /****** Hebergements ***********/
 .hebergements {
-  width: 65%;
   display: flex;
   flex-direction: column;
+  width: 66%;
+  background-color: #F2F2F2;
+  padding: 3%;
+  border-radius: 20px;
+  height: auto;
 }
 
 .hebergements .card {
