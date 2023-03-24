@@ -210,7 +210,6 @@ padding: 20px;
 
 /****** Hebergements And Populaires ***********/
 
-
 .hebergements-and-populaires {
   display: flex;
   padding : 0px;
@@ -224,6 +223,7 @@ padding: 20px;
   background-color: #F2F2F2;
   margin: 15px;
 }
+
 /****** Cards *******/
 .card {
   background-color: white;
@@ -240,6 +240,13 @@ padding: 20px;
 .card-title {
   font-size: 16px;
 }
+.hebergements-cards .populaires-cards .card-rating {
+  margin-bottom: 5px;
+}
+
+.card-txt .a {
+  text-decoration: none;
+}
 
 /****** Hebergements ***********/
 .hebergements {
@@ -252,12 +259,13 @@ padding: 20px;
   height: auto;
 }
 
-.hebergements .card {
+.hebergements-cards .card {
   display: flex;
-}
-
-.a {
-  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hebergements-title {
@@ -268,7 +276,7 @@ padding: 20px;
 
 .hebergements-cards .card {
   margin-top: 33px;
-  width: fit-content
+  width: fit-content;
 }
 
 .hebergements-cards img {
@@ -297,9 +305,7 @@ padding: 20px;
   margin: 0;
 }
 
-.hebergements-cards .card-rating {
-  margin-bottom: 5px;
-}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -341,12 +347,66 @@ padding: 20px;
     margin: 0;
 }
 
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
+/**** Partie Activités ***/
+.activites {
+  padding-left: 46px;
+  padding-right: 46px;
+  margin-top: 55px;
+} 
+
+.activites-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 460px;
+  box-shadow: 0px 0px 7px #6a6b6b;
 }
 
+.activites-card-content img{
+  
+  overflow-clip-margin : content-box;
+  overflow: clip;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.titre_selection_activite{
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 5%;
+  height: 38px;
+  white-space: nowrap;
+}
+
+
+/***** Footer ****/
 footer { 
   background-color: #F2F2F2;
+  display: flex;
+  padding-left:46px;
+  padding-top: 45px;
+  margin-top: 60px;
+}
+
+.footer_colonne{
+  width: 32%;
+  padding-bottom: 30px;
+}
+
+h3{
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+
+footer li{
+  margin-bottom: 13px;
+  font-size: 17px;
+  font-weight: 500; /** épaisseur du texte**/
+}
+
+li.liens_footer:hover a, li.liens_footer:focus a, li.liens_footer:active a{
+  font-weight: 600;  
 }
 
 /****** Media queries ***********/
