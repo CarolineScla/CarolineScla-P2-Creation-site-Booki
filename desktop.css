@@ -251,7 +251,6 @@ padding: 20px;
 /****** Hebergements ***********/
 .hebergements {
   display: flex;
-  flex-direction: column;
   width: 66%;
   background-color: #F2F2F2;
   padding: 3%;
@@ -260,7 +259,6 @@ padding: 20px;
 }
 
 .hebergements-cards .card {
-  display: flex;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -268,11 +266,6 @@ padding: 20px;
   justify-content: space-between;
 }
 
-.hebergements-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
 
 .hebergements-cards .card {
   margin-top: 33px;
@@ -311,11 +304,6 @@ padding: 20px;
     width: 32%;
 }
 
-.populaires-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .populaires-cards .card {
     display: flex;
