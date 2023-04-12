@@ -275,7 +275,8 @@ a {
 
 .hebergements-cards img {
   height: 134px;
-  border-radius: 20px 20px 0px 0px; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;  
   overflow-clip-margin: content-box;
   overflow: clip;
   margin: 0%;
@@ -314,11 +315,10 @@ a {
 }
 
 .populaires-cards img {
-    width: 60%;
+    width: 33%;
     height: 134px;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
-
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
