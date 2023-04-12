@@ -258,16 +258,16 @@ padding: 20px;
   height: auto;
 }
 
-.hebergements-cards .card {
-  width: 100%;
+.hebergements-cards {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-top: 33px;
+  height: 200px;
+  align-items: stretch;
 }
 
-
 .hebergements-cards .card {
+  width: 100%;
   margin-top: 33px;
   width: fit-content;
 }
