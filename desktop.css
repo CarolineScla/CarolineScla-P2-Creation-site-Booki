@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 .main-container {
@@ -26,8 +27,10 @@ body {
 }
 
 .section-title {
-    margin: 0;
     font-size: 22px;
+    display: flex;
+    position: absolute;
+    margin: 0px;
 }
 
 .euro {
@@ -221,7 +224,6 @@ padding: 20px;
   padding: 30px;
   box-sizing: border-box;
   background-color: #F2F2F2;
-  margin: 15px;
 }
 
 /****** Cards *******/
@@ -250,31 +252,36 @@ a {
 }
 
 /****** Hebergements ***********/
+
+
 .hebergements {
   display: flex;
-  width: 66%;
+  flex-wrap: wrap;
+  width: 70%;
   background-color: #F2F2F2;
   padding: 3%;
   border-radius: 20px;
   height: auto;
+  margin-right: 20px;
+  
 }
 
 .hebergements-cards {
   display: flex;
   flex-flow: row wrap;
-  margin-top: 33px;
-  height: 200px;
-  align-items: stretch;
+  margin: 30px 0px 30px 0px;
+  justify-content: space-between;
 }
 
 .hebergements-cards .card {
-  width: 100%;
+
   margin-top: 33px;
   width: fit-content;
 }
 
 .hebergements-cards img {
   height: 134px;
+  width: 220px;
   border-radius: 20px 20px 0px 0px; 
   overflow-clip-margin: content-box;
   overflow: clip;
@@ -298,15 +305,20 @@ a {
   margin: 0;
 }
 
-
+#afficher_plus {
+  font-weight: bold;
+}
 /****** Populaires ***********/
-.populaires {
-    width: 32%;
+
+.populaires-title{
+    display: flex;
+    align-items: space-between;
 }
 
-.section-title i {
-  float: right;  /**pour décaler à droitre le logo**/                       
- }
+.populaires {
+    width: 30%;
+    margin-left: 20px;
+}
 
 .populaires-cards .card {
     display: flex;
@@ -314,11 +326,10 @@ a {
 }
 
 .populaires-cards img {
-    width: 60%;
+    width: 134px;
     height: 134px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
-
 }
 
 .populaires-cards .card-content {
@@ -337,6 +348,11 @@ a {
 
 .populaires-cards .card-subtitle {
     margin: 0;
+}
+
+.populaires-cards .card a {
+  display: flex;
+
 }
 
 /**** Partie Activités ***/
