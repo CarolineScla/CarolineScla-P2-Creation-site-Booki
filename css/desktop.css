@@ -317,8 +317,10 @@ a {
 }
 
 .populaires-title {
-  position: absolute;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+  align-items: center;
 }
 .fa-solid .fa-chart-line {
  
