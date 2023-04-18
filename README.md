@@ -1,15 +1,8 @@
-Projet 2 - Formation en Web Développement - Openclassrooms
+***Projet 2 - Formation en Web Développement - Openclassrooms***
 
-Objectif : Transformez une maquette en site web avec HTML & CSS
+**Objectif : Transformez une maquette en site web avec HTML & CSS**
 
-Booki - Trouvez votre hébergement pour des vacances de rêve
-
-Scénario : 
-Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. 
-
-L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
-
-Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. 
+**Booki - Trouvez votre hébergement pour des vacances de rêve**
 
 Spécificités et contraintes techniques : 
 
@@ -64,6 +57,7 @@ facilement cette police dans le code : https://fonts.google.com/specimen/Raleway
 
 ● Il est important d’utiliser des balises sémantiques, au minimum “header”, “nav”,
 “h1-h2-h3”, “main”, “section”, “article” et “footer”.
+
 Validité du code
 
 ● Afin d’harmoniser les outils avec toute l’équipe, il faudra utiliser l’IDE Visual Studio
