@@ -16,14 +16,15 @@
 body {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
-    width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .section-title {
@@ -46,14 +47,6 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  padding: 0 60px;
-}
-
-.logo-booki {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  margin-left: -60px;
 }
 
 nav ul {
@@ -79,7 +72,7 @@ nav li:hover:before { /** pour la barre bleue au survol des éléments **/
     content: "";
     position: absolute;
     height: 2px;
-    width: 110px;
+    width: 95px;
     top: 0px;
     background-color: #0065FC;
 }
@@ -153,14 +146,10 @@ line-height: 26px;
 /** Filtres **/
 .filtres {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
   font-weight: bold;
-    margin: 10px 0;
+  margin: 25px 0;
 }
 
 .boutons-filtres {
@@ -171,7 +160,6 @@ padding: 20px;
   display: flex;
   align-items: center;
   Text-align: left;
-  margin: 10px 10; 
 }
 
 .filtres ul {
@@ -179,17 +167,20 @@ padding: 20px;
   list-style: none;  
 }
 
-/** taille + espace entre les boutons + couleur arrière **/
-.filtres button {
-  display: inline-block;
-  align-items: center;
+.petit-i {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.filtres button { /** taille + espace entre les boutons + couleur arrière **/
+  display: inline;
   border: 2px solid #ccc;
   border-radius: 20px;
   padding: 12px 10px;
   font-size: 15px;
   cursor: pointer;
-  margin-right: 15px; 
-  margin-left: 15px;
+  margin-right: 10px; 
+  margin-left: 40px;
   background-color: white;
 }
 
@@ -234,7 +225,6 @@ padding: 20px;
 }
 
 .card img {
-  overflow-clip-margin : content-box;
   overflow: clip;
 }
 
@@ -282,7 +272,6 @@ a {
   height: 134px;
   width: 220px;
   border-radius: 20px 20px 0px 0px; 
-  overflow-clip-margin: content-box;
   overflow: clip;
   margin: 0%;
   object-fit: cover;
