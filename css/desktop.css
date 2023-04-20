@@ -85,6 +85,13 @@ line-height: 26px;
    color: #000000;
 }
 
+.recherche-box button .rechercher-logo {  /** pour masquer le logo loupe **/
+  display: none;
+}
+.recherche-box button .rechercher-texte {
+  display: inline-block;
+}
+
 .recherche {
   border-radius: 5px;
   overflow: hidden;
@@ -497,4 +504,11 @@ footer li{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+  .recherche-box button .rechercher-logo {
+    display: inline-block;
+  }
+  .recherche-box button .rechercher-texte {
+    display: none;
+  }
 }
+
