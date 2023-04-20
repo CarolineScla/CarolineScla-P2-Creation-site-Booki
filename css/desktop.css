@@ -85,11 +85,8 @@ line-height: 26px;
    color: #000000;
 }
 
-.recherche-box button .rechercher-logo {  /** pour masquer le logo loupe **/
+.rechercher-logo {  /** pour masquer le logo loupe **/
   display: none;
-}
-.recherche-box button .rechercher-texte {
-  display: inline-block;
 }
 
 .recherche {
@@ -507,8 +504,13 @@ footer li{
   .recherche-box button .rechercher-logo {
     display: inline-block;
   }
+  
   .recherche-box button .rechercher-texte {
     display: none;
+  }
+  
+  .recherche .recherche-box button[type="submit"] .fa-solid {
+    color: #fff;
   }
 }
 
