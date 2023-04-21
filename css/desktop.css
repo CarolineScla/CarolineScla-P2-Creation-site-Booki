@@ -496,8 +496,12 @@ footer li{
 
 }
 
-/****** Small devices (phones, less than 768px) ******/
+/****** -----------Small devices (phones, less than 768px)----------- ******/
 @media (max-width: 767.98px) {
+.logo-header img {
+  width: 50%;
+  padding: 6px;
+}
 .main-container {
   flex-direction: column;
   display: flex;
@@ -511,9 +515,10 @@ header {
   margin: 2em;
 }
 
-.logo-header {
+.logo-header {     
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 25px;
 }
 
@@ -534,7 +539,7 @@ nav ul {
 
 nav li {
   display: flex;
-  margin: 0 20%;
+  margin: 0 30%;
   justify-content: space-evenly;
 }
 
@@ -614,7 +619,7 @@ nav a:hover {  /** pour la couleur bleue au survol des éléments **/
     width: 100%;
     border: 1px solid #ccc; 
     border-radius: 20px;
-    padding: 10px; 
+    padding: 12px; 
     margin: 0;
   }
 
@@ -638,6 +643,10 @@ nav a:hover {  /** pour la couleur bleue au survol des éléments **/
   background-color: #F2F2F2;
 }
 
+.hebergements-and-populaires .card-title {
+  font-size: 18px;
+  }
+
 .populaires-cards {
   display: flex;
   flex-direction: column;
@@ -649,20 +658,16 @@ nav a:hover {  /** pour la couleur bleue au survol des éléments **/
   padding: 4px;
   width: 100%;
   display: flex; /* Ajout de la propriété "display: flex" pour activer la flexibilité */
-  margin-bottom
 }
 
 .populaires-cards img {
-  flex: 4; /* pour définir l'espace occupé par l'image */
+  flex: 3; /* pour définir l'espace occupé par l'image */
   height: 180px;
   border-radius: 20px 0px 0px 20px;
   overflow: clip;
   object-fit: cover;
 }
 
-.card-title {
-  font-size: 1.5rem;
-}
 .populaires-cards .card a {
 width: 80%;
 }
@@ -671,13 +676,58 @@ width: 80%;
   flex: 3; /* Ajout de la propriété "flex: 3" pour définir l'espace occupé par le texte à 60% */
 }
 
-.populaires-cards .card-title {
-font-size: 18px;
-}
-
 .populaires-cards .card-subtitle {
 font-size: 16px;
 }
-/**  **/
+
+/** Hebergements  **/
+
+.hebergements-cards img {
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+}
+
+.hebergements-cards .card {
+  margin-top: 30px;
+  width: 100%;
+  height: 180px;
+}
+
+#afficher_plus {
+  display: none;
+}
+
+#activites h2 {
+  margin: 60px 220px 0 20px;
+}
+
+.activites-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.activites-card-content {
+  width: 100%;
+}
+
+/***** ------ Footer ------*****/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 30px;
+}
+
+.footer_colonne {
+  display: inline;
+}
+
+.liens_footer a {
+  display: block;
+  width: 200%;
+}
+
 }
 
