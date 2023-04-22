@@ -475,6 +475,11 @@ footer li{
   .populaires-cards .card-subtitle {
       font-size: 13px;
   }
+  .populaires-cards .card {
+    flex: 1 1 200px;
+    display: flex;
+    margin: 5px;
+}
 
   .activites-card {
     flex-wrap: nowrap;
