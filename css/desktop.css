@@ -45,6 +45,10 @@ header {
   height: 80px;
 }
 
+.logo-header img {
+  width: 40%;
+}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -181,7 +185,7 @@ padding: 20px;
   margin-right: 10px; 
   margin-left: 40px;
   background-color: white;
-
+  white-space: nowrap; /** pour éviter le retour à la ligne**/
 }
 
 .filtres button:hover {
@@ -671,7 +675,7 @@ nav a:hover {  /** pour la couleur bleue au survol des éléments **/
 
 .populaires-cards img {
   flex: 3; /* pour définir l'espace occupé par l'image */
-  height: 160px;
+  height: 200px;
   border-radius: 20px 0px 0px 20px;
   overflow: clip;
   object-fit: cover;
