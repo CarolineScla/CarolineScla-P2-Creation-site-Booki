@@ -341,7 +341,7 @@ a {
 }
 
 .section-title i {
-  margin-left: 40%;
+  float: right;
 }
 
 .populaires-cards .card {
@@ -622,6 +622,7 @@ nav a:hover {  /** pour la couleur bleue au survol des éléments **/
 
 .recherche-section h1 {
   font-size: 24px;
+  margin: 0 0 4% 0;
 }
 
 .recherche-section p {
@@ -671,16 +672,18 @@ nav a:hover {  /** pour la couleur bleue au survol des éléments **/
     padding: 7%; 
     margin: 0;
   }
+
 .logo-filtres {   
   margin: 0;
 }
 
 .filtres i {
-  margin: 0;
+  margin: 0px;
 }
 
 strong {
   margin: 0;
+  font-size: 12px;
 }
 
 .petit-i p {
